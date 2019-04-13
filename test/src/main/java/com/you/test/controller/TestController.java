@@ -15,7 +15,7 @@ public class TestController {
     @RequestMapping("/a")
     public TestBean A(){
         TestBean testBean = new TestBean();
-        testBean.setName("fueighfg");
+        testBean.setName("朱余朋");
         testBean.setAge(18);
         return testBean;
     }
